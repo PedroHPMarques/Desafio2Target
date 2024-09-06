@@ -2,6 +2,7 @@ from questao1 import fibonacci
 from questao2 import verificar_letra_a
 from questao3 import calcular_soma
 from questao4 import proximo_elemento_sequencia
+from questao5 import identificar_interruptores
 
 
 def executar_questao1():
@@ -33,11 +34,16 @@ def executar_questao4():
     proximo_elemento_sequencia()
 
 
+def executar_questao5():
+    identificar_interruptores()
+
+
 def main():
     executar_questao1()
     executar_questao2()
     executar_questao3()
     executar_questao4()
+    executar_questao5()
 
 
 if __name__ == "__main__":
