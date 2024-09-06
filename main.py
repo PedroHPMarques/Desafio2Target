@@ -1,6 +1,7 @@
 from questao1 import fibonacci
 from questao2 import verificar_letra_a
 from questao3 import calcular_soma
+from questao4 import proximo_elemento_sequencia
 
 
 def executar_questao1():
@@ -27,10 +28,16 @@ def executar_questao3():
     print(f"Resultado da Questão 1: {calcular_soma()}")
 
 
+def executar_questao4():
+    print("\n===== Questão 4: Descobrir o Próximo Elemento =====")
+    proximo_elemento_sequencia()
+
+
 def main():
     executar_questao1()
     executar_questao2()
     executar_questao3()
+    executar_questao4()
 
 
 if __name__ == "__main__":
